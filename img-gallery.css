@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
 }
 
-/* img {
+img {
     display: block;
     width: 100%;
 }
@@ -29,24 +29,3 @@ img:nth-child(6n){
     grid-column: span 3;
     grid-row: span 3;
 }
-
-@media (max-width: 740px){
-    .grid-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    }
-}
-
-@media (max-width: 600px){
-    .grid-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    }
-}
-
-@media (max-width: 460px){
-    img:nth-child(6n){
-        grid-column: span 2;
-        grid-row: span 2;
-    }
-} */
